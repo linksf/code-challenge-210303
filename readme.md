@@ -2,12 +2,15 @@
 
 ## Instructions
 
-**Part 0:**
+### Part 0:
+
 Fork this repo and clone it down to your machine.
 
-**Part 1:**
-Create a function that creates a filtered JSON file from the equipment list array
-Your JSON file should be an array of objects where each object looks like this.
+### Part 1:
+
+Updated the filteredEquipmentListUtil function so that it create a filtered JSON file from the equipment list array which is already being imported.
+
+Your JSON file should be an array of objects where each object is structured and named like this example.
 
 ```JSON
 {
@@ -17,17 +20,9 @@ Your JSON file should be an array of objects where each object looks like this.
 },
 ```
 
-```JS
-const fs = require('fs');
-const equipmentList = require('./equipmentList');
+### Part 2:
 
-const filteredData = (arr) => {
-//Your Code Here
-};
-```
-
-**Part 2: **
-Write your filtered Data to the File System with the FS module
+Write your filtered Data to the File System with the Node FS module
 
 **References**
 
@@ -35,4 +30,6 @@ Write your filtered Data to the File System with the FS module
 
 `fs.writeFileSync(filename, data);`
 
-Extra bonus points if you can create a pull request with your solution
+### Part 3:
+
+Create a pull request with your solution.
